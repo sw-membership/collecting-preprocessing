@@ -50,7 +50,7 @@ for i in range(2) :
     num = 0
     while True:
         if (alt[num]=
-    
+
 
 n = 0 # n은 페이지 번호
 stock_name_list = [] #종목명만 모을 리스트
@@ -76,10 +76,6 @@ while True :
         time.sleep(1)        
     
     print("%d번째 페이지 완료"%n)    
-    
-    if (n == 3) :
-        break
-        
         
             
             
