@@ -42,16 +42,6 @@ driver.find_element_by_xpath("/html/body/div[1]/div[2]/div[3]/div[3]/a[2]").clic
 # 크롤링할 각 페이지의 url에 붙을 url_basis
 url_basis = driver.current_url[0:-1]
 
-url_test = url_basis + "1"
-for i in range(2) :
-    input = "#contents > div.table_style01 > table > tbody > tr:nth-child(%d)> td:nth-child(9) > div > a > img" %(i+1)
-    alt = driver.find_element_by_css_selector(input).get_attribute('alt')
-    print(alt)
-    num = 0
-    while True:
-        if (alt[num]=
-
-
 n = 0 # n은 페이지 번호
 stock_name_list = [] #종목명만 모을 리스트
 
